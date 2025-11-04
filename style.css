@@ -40,7 +40,9 @@ body{
     width: 45rem;
     gap: 1rem;
     /* border: 2px solid red; */
+   transition: transfrom 0.3;
 }
+
 
 .main_nav ul li {
     color: white;
@@ -55,6 +57,11 @@ body{
     background-color: #043873;
     border: none;
     margin-left: 5rem;
+    cursor: pointer;
+    transition: color 0.3 ease;
+}
+.main_nav ul li select:hover{
+    color: rgb(153, 77, 225);
 }
 
 .buttons{
@@ -65,6 +72,8 @@ body{
     padding-bottom: 3rem;
     /* border: 2px solid black; */
     align-items: center;
+    transition: color o.3 ease;
+    
 }
 
 .login_btn{
@@ -72,6 +81,13 @@ body{
     width: 5vw;
     background-color: #FFE492;
     border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: color o.3 ease;
+}
+
+.login_btn:hover{
+   background-color: #ecc140;
 }
 .try_btn{
     height: 4.5vh;
@@ -80,7 +96,14 @@ body{
     background-color: #4F9CF9;
     color: #FFFFFF;
     border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3 ease;
 }
+.try_btn:hover{
+    background-color: #0f77f5;
+}
+
 .Second_box{
     /* border: 2px solid black; */
     display: flex;
@@ -112,6 +135,7 @@ body{
     border-radius: 5px;
     font-size: 13.5px;
     font-weight: 80px;
+    cursor: pointer;
 }
 .txt_left_second{
     padding-top: 3rem;
@@ -131,9 +155,9 @@ body{
 .inner_right_box{
     margin-top: 3rem;
     /* border: 2px solid pink; */
-    height: 60vh;
-    width: 42vw;
-    margin-left: 3rem;
+    height: 65vh;
+    width: 40vw;
+    margin-left: 8.5rem;
     background-color: #C4DEFD;
 }
 
@@ -145,6 +169,7 @@ body{
     /* border: 2px solid black; */
     display: flex;
     gap: 2px;
+    background-image: url(./Abstract-wave-png-17\ 2\ \(1\).png);
     
 }
 .second_page_left{
@@ -174,7 +199,14 @@ body{
     margin-top: 3rem;
     font-size: 19px;
     font-family: "Sans sarif";
+    cursor: pointer;
+    transform: color 0.3 ease;
+    /* text-align: center; */
 }
+.second_page_btn:hover{
+    background-color: #1a70d8;
+}
+
 .second_page_para{
     font-family: "Sans Sarif";
     padding-bottom: 5rem;
@@ -190,4 +222,70 @@ body{
     /* border: 2px solid pink; */
     background: transparent;
     background-color: #C4DEFD;
+}
+
+/*Third page fot 8th project css*/
+
+.third_page{
+    height: 100vh;
+    /* border: 2px solid black; */
+    background-color: #043873;
+    display: flex;
+}
+.third_left_page{
+    width: 50vw;
+    /* border: 2px solid blue; */
+    height: 100%;
+    padding-left: 5.5rem;
+}
+
+.third_right_page{
+    height: 100%;
+    width: 50vw;
+    /* border: 2px solid red; */
+    /* padding-top: 8rem; */
+}
+.third_page_right_heading{
+    font-family: "Roboto";
+    font-size: 50px;
+    font-weight: 30px;
+    color: #FFFFFF;
+    margin-top: 14rem;
+    /* margin-left: 3rem; */
+}
+
+.third_page_para{
+    color: #FFFFFF;
+    font-family: "Sans sarif";
+    font-size: 19px;
+    font-weight: 30px;
+    /* padding-bottom: 3rem; */
+}
+
+.third_page_btn{
+    background: transparent;
+    color: #FFFFFF;
+    background-color: #4F9CF9;
+    height: 40px;
+    width: 110px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Sans sarif";
+    font-size: 15px;
+    margin-top: 5rem;
+    cursor: pointer;
+}
+
+.third_right_inner{
+    height: 65vh;
+    width: 40vw;
+    /* border: 2px solid pink; */
+    margin-top: 7rem;
+    background-color: #C4DEFD;
+}
+
+/*fourth page -8th project css*/
+.fourth_page{
+    height: 100vh;
+    border: 2px solid red;
 }
