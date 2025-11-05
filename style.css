@@ -1,6 +1,6 @@
 body {
   margin: 0;
-    padding: 0;
+  padding: 0;
 }
 .first_page {
   height: 100vh;
@@ -406,20 +406,20 @@ body {
   background-color: none;
 }
 
-.second_container:hover{
-     transform: scale(1.1);
+.second_container:hover {
+  transform: scale(1.1);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   background-color: #043873;
   color: #ffffff;
   border: none;
   cursor: pointer;
 }
-.second_container h3{
-    font-family: "Roboto";
+.second_container h3 {
+  font-family: "Roboto";
   font-size: 23px;
 }
-.second_container p{
-    font-family: "Roboto";
+.second_container p {
+  font-family: "Roboto";
   font-size: 20px;
 }
 
@@ -428,28 +428,27 @@ body {
   width: 27vw;
   border: 2px solid yellow;
   padding-left: 2rem;
-    transition: transform 0.2 ease box-shadow;
+  transition: transform 0.2 ease box-shadow;
   background-color: none;
 }
-.third_container:hover{
-    transform: scale(1.1);
+.third_container:hover {
+  transform: scale(1.1);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   background-color: #043873;
   color: #ffffff;
   border: none;
   cursor: pointer;
 }
-.third_container h3{
-      font-family: "Roboto";
+.third_container h3 {
+  font-family: "Roboto";
   font-size: 23px;
 }
-.third_container p{
-     font-family: "Roboto";
+.third_container p {
+  font-family: "Roboto";
   font-size: 20px;
 }
 
-
-.fourth_page_btn{
+.fourth_page_btn {
   height: 5vh;
   width: 9vw;
   margin-top: 2rem;
@@ -459,7 +458,6 @@ body {
   text-align: center;
   padding-top: 1rem;
   transition: color 0.3 ease;
-  
 }
 .fourth_page_btn:hover {
   background-color: #0f77f5;
@@ -467,4 +465,273 @@ body {
   border: none;
 }
 
+/* Fifth page for the 8th project */
 
+.fifth_page {
+  height: 50vh;
+  /* border: 2px solid black; */
+  text-align: center;
+}
+.fifth_page_head {
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 70px;
+  font-size: 24px;
+
+  /* display: flex; */
+}
+
+.fourth_page_img {
+  /* border: 2px solid blue; */
+  align-items: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 4rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.appale_img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.microsoft_img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.slack_img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.google_img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/*sixth page for the 8th project*/
+
+.sixth_page {
+  height: 90vh;
+  /* border: 2px solid black; */
+}
+
+.sixth_page_head {
+  font-family: "Roboto";
+  font-weight: 40px;
+  font-size: 27px;
+  text-align: center;
+}
+
+.sixth_multi_container {
+  height: 70vh;
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: space-around;
+}
+.sixth_first {
+  /* border: 2px solid red; */
+  width: 30vw;
+  height: 100%;
+  transition: color 0.3 ease;
+  border-color: gray;
+}
+.sixth_first:hover {
+  background-color: #043873;
+  color: #ffffff;
+  border-color: #ffffff;
+  /* content: url(./Quote.png); */
+}
+.sixth_page_desc:hover img {
+  content: url(./Quote.png);
+}
+
+.sixth_page_desc {
+  height: 50%;
+  width: 25vw;
+  margin-left: 1rem;
+  padding-left: 2rem;
+  padding-top: 5rem;
+  border-bottom: 2px solid black;
+  /* border-radius: 8px; */
+}
+.sixth_page_desc:hover {
+  border-color: #ffffff;
+}
+.sixth_page_desc img {
+  padding-bottom: 1rem;
+}
+.sixth_page_desc p {
+  padding-bottom: 1.5rem;
+  font-family: "Sans sarif";
+  font-weight: 70px;
+  font-size: 18px;
+  flex-direction: column;
+}
+
+.sixth_page_ending {
+  /* border: 2px solid orange; */
+  display: flex;
+  padding-left: 2rem;
+}
+.sixth_page_ending img {
+  height: 10vh;
+  width: 5vw;
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+.sixth_page_first_info {
+  padding-left: 2rem;
+}
+.sixth_second {
+  transition: color 0.3 ease;
+}
+.sixth_second:hover {
+  background-color: #043873;
+  color: #ffffff;
+}
+
+.sixth_third {
+  border-color: gray;
+  transition: color 0.3 ease;
+}
+.sixth_third:hover {
+  background-color: #043873;
+
+  color: #ffffff;
+}
+
+/*Footer for the 8th project*/
+
+.footer {
+  height: 60vh;
+  border: 2px solid black;
+  background-color: #043873;
+}
+.multi_footer_div {
+  /* border: 2px solid white; */
+  height: 80%;
+  width: 94%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+.first_sub_footer {
+  margin-top: 3rem;
+  padding-top: 3rem;
+  height: 60%;
+  width: 16vw;
+  /* border: 2px solid red; */
+  color: #f7f7ee;
+  /* text-align: center; */
+  /* padding-left: 2rem; */
+  line-height: 20px;
+}
+.first_sub_footer .img_txt {
+  display: inline-block;
+  position: relative;
+  top: -10px;
+  margin-left: 8px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.first_sub_footer img {
+  padding-top: 1rem;
+}
+
+.second_sub_footer {
+  margin-top: 3rem;
+  padding-top: 3rem;
+  height: 60%;
+  width: 16vw;
+  /* border: 2px solid red; */
+  color: #f7f7ee;
+  /* text-align: center; */
+  /* padding-left: 2rem; */
+  line-height: 20px;
+}
+.second_sub_footer a {
+  text-decoration: none;
+  color: #f7f7ee;
+  display: block;
+  margin-bottom: 6px;
+  text-decoration: none;
+}
+.second_sub_footer a:hover {
+  color: #ecc140;
+}
+.second_sub_footer h3 {
+  font-family: "Roboto";
+  font-weight: 400px;
+  font-size: 20px;
+}
+.third_sub_footer {
+  margin-top: 3rem;
+  padding-top: 3rem;
+  height: 60%;
+  width: 16vw;
+  /* border: 2px solid red; */
+  color: #f7f7ee;
+  /* text-align: center; */
+  /* padding-left: 2rem; */
+  line-height: 20px;
+}
+.third_sub_footer a {
+  text-decoration: none;
+  color: #f7f7ee;
+  display: block;
+  margin-bottom: 6px;
+  text-decoration: none;
+}
+.third_sub_footer h3 {
+  font-family: "Roboto";
+  font-weight: 400px;
+  font-size: 20px;
+}
+.third_sub_footer a:hover {
+  color: #ecc140;
+}
+.fourth_sub_footer {
+  margin-top: 3rem;
+  padding-top: 3rem;
+  height: 60%;
+  width: 16vw;
+  /* border: 2px solid red; */
+  color: #f7f7ee;
+  /* text-align: center; */
+  /* padding-left: 2rem; */
+  line-height: 20px;
+}
+.fourth_sub_footer a {
+  text-decoration: none;
+  color: #f7f7ee;
+  display: block;
+  margin-bottom: 6px;
+  text-decoration: none;
+}
+.fourth_sub_footer h3 {
+  font-family: "Roboto";
+  font-weight: 400px;
+  font-size: 20px;
+}
+.fourth_sub_footer a:hover {
+  color: #ecc140;
+}
+.fifth_sub_footer {
+  margin-top: 3rem;
+  padding-top: 3rem;
+  height: 60%;
+  width: 16vw;
+  /* border: 2px solid red; */
+  color: #f7f7ee;
+  /* text-align: center; */
+  /* padding-left: 2rem; */
+  line-height: 20px;
+}
+.fifth_sub_footer h3 {
+  font-family: "Roboto";
+  color: #ffffff;
+  font-weight: 400px;
+  font-size: 20px;
+}
