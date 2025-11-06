@@ -639,6 +639,9 @@ body {
 .first_sub_footer img {
   padding-top: 1rem;
 }
+.second_container:hover{
+  transform: translateY(-10);
+}
 
 .second_sub_footer {
   margin-top: 3rem;
@@ -665,6 +668,9 @@ body {
   font-family: "Roboto";
   font-weight: 400px;
   font-size: 20px;
+}
+.second_container{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.06);
 }
 .third_sub_footer {
   margin-top: 3rem;
